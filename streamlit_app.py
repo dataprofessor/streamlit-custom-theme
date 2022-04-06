@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.header('Theming with config.toml')
+st.header('Customizing the theme of Streamlit apps')
 
 st.write('Contents of the config.toml file of this app')
 
