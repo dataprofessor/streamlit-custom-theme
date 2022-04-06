@@ -2,6 +2,10 @@
 
 We can customize the theme by adjusting parameters in `config.toml`, which is a configuration file stored in the same folder as the app in the `.streamlit` folder.
 
+## What we're building?
+
+A simple app that shows the result of our theme customization. This is made possible by customizing the HTML HEX code inside the `.streamlit/config.toml` file.
+
 ## Demo app
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st-config.toml/)
