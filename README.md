@@ -67,3 +67,4 @@ Let's now take a look at the custom colors that we've used in this app, which is
 
 ## Further reading
 - [Theming](https://docs.streamlit.io/library/advanced-features/theming)
+- [HTML Color Codes](https://htmlcolorcodes.com/) is a great tool for selecting colors of interest.
