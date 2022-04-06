@@ -4,5 +4,4 @@ st.header('config.toml')
 
 with open('.streamlit/config.toml') as f:
   lines = f.readlines()
-  for line in lines:
-    st.code(line)
+  st.code([line for line in lines])
