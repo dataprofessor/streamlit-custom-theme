@@ -1,10 +1,10 @@
-# st.template
+# config.toml
 
-`st.template` allows writing text and arguments to the Streamlit app.
+`config.toml` is a configuration file stored in the same folder as the app in `.streamlit`.
 
 ## Demo app
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st.template/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st-config.toml/)
 
 ## Code
 Here's how to use st.write:
