@@ -11,7 +11,21 @@ Here's how to use st.write:
 ```python
 import streamlit as st
 
+st.header('Theming with config.toml')
 
+st.write('Contents of the config.toml file of this app')
+
+st.code("""
+[theme]
+primaryColor="#F39C12"
+backgroundColor="#2E86C1"
+secondaryBackgroundColor="#AED6F1"
+textColor="#FFFFFF"
+font="monospace"
+""")
+
+number = st.sidebar.slider('Select a number:', 0, 10, 5)
+st.write('Selected number from slider widget is:', number)
 ```
 
 ## Line-by-line explanation
@@ -19,6 +33,13 @@ The very first thing to do when creating a Streamlit app is to start by importin
 ```python
 import streamlit as st
 ```
+
+This is followed by creating a header text for the app:
+```python
+st.header('Theming with config.toml')
+```
+
+
 
 ## Further reading
 
