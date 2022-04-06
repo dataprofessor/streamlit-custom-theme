@@ -4,6 +4,6 @@ st.header('config.toml')
 
 with open('.streamlit/config.toml') as f:
   contents = f.read()
-  print(contents)
+  st.write(contents)
 
 #st.write(primaryColor)
