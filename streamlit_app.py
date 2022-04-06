@@ -1,10 +1,8 @@
 import streamlit as st
 
-st.header('Contents of config.toml')
+st.header('Theming with config.toml')
 
-number = st.sidebar.slider('Select a number:', 0, 10, 5)
-st.write('Selected number is:', number)
-
+st.write('Contents of the config.toml file of this app')
 st.code("""
 [theme]
 primaryColor="#F39C12"
@@ -13,3 +11,6 @@ secondaryBackgroundColor="#AED6F1"
 textColor="#FFFFFF"
 font="monospace"
 """)
+
+number = st.sidebar.slider('Select a number:', 0, 10, 5)
+st.write('Selected number is:', number)
