@@ -1,6 +1,6 @@
 # Theming with config.toml
 
-`config.toml` is a configuration file stored in the same folder as the app in `.streamlit`.
+We can customize the theme by adjusting parameters in `config.toml`, which is a configuration file stored in the same folder as the app in the `.streamlit` folder.
 
 ## Demo app
 
