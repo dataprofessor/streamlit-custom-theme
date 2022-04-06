@@ -1,4 +1,4 @@
-# Theming with config.toml
+# Customizing the theme of Streamlit apps
 
 We can customize the theme by adjusting parameters in `config.toml`, which is a configuration file stored in the same folder as the app in the `.streamlit` folder.
 
