@@ -8,14 +8,14 @@ A simple app that shows the result of our theme customization. This is made poss
 
 ## Demo app
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st-config.toml/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/streamlit-custom-theme/)
 
 ## Code
 Here's how to use st.write:
 ```python
 import streamlit as st
 
-st.header('Theming with config.toml')
+st.header('Customizing the theme of Streamlit apps')
 
 st.write('Contents of the config.toml file of this app')
 
