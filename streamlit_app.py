@@ -3,6 +3,7 @@ import streamlit as st
 st.header('Theming with config.toml')
 
 st.write('Contents of the config.toml file of this app')
+
 st.code("""
 [theme]
 primaryColor="#F39C12"
