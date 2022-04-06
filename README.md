@@ -1,4 +1,4 @@
-# config.toml
+# config.toml (Customizing the app's theme)
 
 `config.toml` is a configuration file stored in the same folder as the app in `.streamlit`.
 
